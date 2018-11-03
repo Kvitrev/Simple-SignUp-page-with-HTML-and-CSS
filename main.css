@@ -1,0 +1,82 @@
+body{
+  margin:0;
+  padding:0;
+  background: url(https://pp.userapi.com/c837239/v837239762/6ae1b/5d5EdZOIheo.jpg);
+  background-size: cover;
+  font-family: helvetica, sans-serif;
+  font-color:white;
+}
+.loginbox{
+  width:320px;
+  height:450px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius:8px;
+  top:50%;
+  left:50%;
+  opacity:0.8;
+  position:fixed;
+  box-sizing:bordered-box;
+  transform:translate(-50%, -50%);
+}
+.avatar{
+  width:100px;
+  height:100px;
+  border:1px solid black;
+  border-radius:50%;
+  position:absolute;
+  top:-50px;
+  margin-left:110px;
+}
+h1{
+  margin-top:55px;
+  text-align:center;
+  font-size:20px;
+  color: white;
+}
+.loginbox p{
+  font-weight:medium;
+  margin-left:5%;
+  padding:0%;
+  color:white;
+}
+.loginbox input{
+  width:90%;
+  margin-bottom:20px;
+  height:45px;
+}
+.loginbox input[type="text"], input[type="password"]{
+  border:none;
+  border-bottom:1px solid white;
+  background-color:transparent;
+  color:white;
+  outline:none;
+  position:relative;
+  margin-left:5%;
+  cursor:pointer;
+}
+input[type="submit"]{
+  margin-left:5%;
+  border-radius:3px;
+  border:none;
+}
+.loginbox input[type="submit"]{
+  cursor:pointer;
+}
+.forgot{
+  margin-left:6%;
+  color:white;
+  font-size:12px;
+}
+.down, .login{
+  color:white;
+  font-size:12px;
+  margin-left:1%;
+}
+.footer{
+  margin-left:85%;
+  color:white;
+  margin-top:710px;
+  font-size:10px;;
+  
+}
